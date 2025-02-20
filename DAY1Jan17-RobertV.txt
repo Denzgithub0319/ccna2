@@ -400,6 +400,7 @@ config t
 router ospf 1
 router-id 10.51.51.4
 network 10.51.0.0  0.0.255.255 area 0
+network 10.51.51.0 0.0.0.255 area 0
 int gi 0/1
  ip ospf network point-to-point
 end
@@ -454,8 +455,8 @@ end
 
 !How to Static Route windows Server:
 cmd
-route  add   10.0.0.0   mask   255.0.0.0    10._.1.4
-route  add  200.0.0.0   mask  255.255.255.0   10._.1.4
+route  add   10.0.0.0   mask   255.0.0.0    10.51.1.4
+route  add  200.0.0.0   mask  255.255.255.0   10.51.1.4
 
 ********************************************
 
