@@ -20,7 +20,7 @@ PYTHON, LINUXBASH, RESTAPI, NETCONF.
 config t
 iox
 interface GigabitEthernet1
-!no ip address dhcp
+ip address dhcp
 ip nat outside
 no shut
 exit
@@ -155,6 +155,7 @@ show platform software yang-management process
 
 @@@csr1000v
 config t
+
 !username admin privilege 15 secret pass
 ip http secure-server
 ip http authentication local
