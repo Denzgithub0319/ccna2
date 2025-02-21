@@ -285,6 +285,7 @@ WonderWoman: 802.1w: rapidSTP
 "quickly,Brutally protect switches"
 SuperMan: 802.1s: MiSTP
 "Protect Many Switches at the same time!"
+x-Men 802.1x Port Based Authrntication
 
 TASK8: ACCESS PORTS VS TRUNK PORTS: lab mo sa exam.
 +
